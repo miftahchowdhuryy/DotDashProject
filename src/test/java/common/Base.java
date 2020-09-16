@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Base {
     public static WebDriver driver;
-    public static String baseURI;
+    public static final String baseURI;
 
     @Test
     public static  WebDriver getDriver() {
